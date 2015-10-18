@@ -58,3 +58,29 @@ AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
+
+
+#LZMA compression
+WITH_LZMA_OTA:= true
+
+#RR customizations
+TARGET_TC_ROM := 4.9-sm
+
+TARGET_TC_KERNEL := 4.9-sm
+
+#RR
+RROPTI := true
+
+RR_O3 := true
+
+RR_STRICT := true
+
+RR_GRAPHITE := true
+
+RR_KRAIT := true
+
+RR_PIPE := true
+
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+
+RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
