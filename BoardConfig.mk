@@ -64,9 +64,9 @@ AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 WITH_LZMA_OTA:= true
 
 #RR customizations
-TARGET_TC_ROM := 4.9-sm
+TARGET_TC_ROM := 5.2
 
-TARGET_TC_KERNEL := 4.9-sm
+TARGET_TC_KERNEL := 5.2
 
 #RR
 RROPTI := true
