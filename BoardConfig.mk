@@ -18,7 +18,7 @@
 -include device/oppo/msm8974-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := bacon_defconfig
+TARGET_KERNEL_CONFIG := ak_bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 
 # Bluetooth
@@ -64,9 +64,9 @@ AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 WITH_LZMA_OTA:= true
 
 #RR customizations
-TARGET_TC_ROM := 5.2
+TARGET_TC_ROM := 4.9
 
-TARGET_TC_KERNEL := 5.2
+TARGET_TC_KERNEL := 4.9-sm
 
 #RR
 RROPTI := true
